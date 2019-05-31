@@ -1,4 +1,4 @@
-module github.com/enix223/opa-client
+module github.com/enix223/opaclient
 
 go 1.12
 
