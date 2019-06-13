@@ -64,5 +64,5 @@ func NewClient(config *ClientConfig) *Client {
 // BuildURL build url with host and path
 func (c *Client) BuildURL(path string, args ...interface{}) string {
 	p := c.baseURL + path
-	return fmt.Sprintf(p, args)
+	return fmt.Sprintf(p, args...)
 }
